@@ -47,3 +47,10 @@ long contarResultados(PGresult* resultado) {
     return total;
 }
 
+char* obtieneString(PGresult* resultado, int fila, int columna) {
+    char* texto = NULL;
+    if (resultado!=NULL) {
+        texto = PQgetvalue(resultado,fila,columna);
+    }
+    return texto;
+}

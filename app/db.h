@@ -56,6 +56,14 @@ void liberar(PGresult* resultado);
  */
 long contarResultados(PGresult* resultado);
 
+/**
+ * Retorna la representación de String del resultado
+ *
+ * @param resultado Estructura con datos de una respuesta SQL
+ * @param fila Fila deseada
+ * @param columna Columna deseada
+ */
+char* obtieneString(PGresult* resultado, int fila, int columna);
 
 #ifdef __cplusplus
 }
