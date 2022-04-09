@@ -37,3 +37,13 @@ void liberar(PGresult* resultado) {
         PQclear(resultado);
     }
 }
+
+long contarResultados(PGresult* resultado) {
+    long total = 0;
+    if (resultado!=NULL) {
+        char* tuplas = PQcmdTuples(resultado);
+        sscanf(tuplas,"%ld",&total);
+    }
+    return total;
+}
+

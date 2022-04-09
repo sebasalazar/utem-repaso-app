@@ -45,9 +45,17 @@ PGresult* consultar(PGconn* conexion, char* consultaSQL);
 /**
  * Libera la memoria usada por una consulta SQL.
  *
- * @param resultado Estructa con datos de una respuesta SQL
+ * @param resultado Estructura con datos de una respuesta SQL
  */
 void liberar(PGresult* resultado);
+
+/**
+ * Cuenta la cantidad de resultados que se obtuvieron en la consulta.
+ *
+ * @param resultado Estructura con datos de una respuesta SQL
+ */
+long contarResultados(PGresult* resultado);
+
 
 #ifdef __cplusplus
 }
