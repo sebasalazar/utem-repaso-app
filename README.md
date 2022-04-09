@@ -16,7 +16,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 19.995.434-2 
 - 19.956.591-5 
 - 17.409.509-4 
-- 18.841.246-7 
+- Rodrigo Mora Palta
 - 18.669.403-1 
 - Rafael Morales Venegas 
 - 19.829.984-7 
