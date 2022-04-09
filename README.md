@@ -33,7 +33,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 19.632.153-5 
 - Martín Esteban Sobarzo Huerta 
 - 19.701.282-K 
-- 18.295.265-6 
+- Rodrigo Andrés Ubilla Castro 
 - 20.044.964-9 
 - 19.406.121-8 
 - 18.540.980-5 
