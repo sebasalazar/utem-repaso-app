@@ -30,7 +30,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 19.606.098-7 
 - 19.782.781-5 
 - 19.744.873-3 
-- 19.632.153-5 
+- Matías Ignacio Silva Farías
 - Martín Esteban Sobarzo Huerta 
 - 19.701.282-K 
 - 18.295.265-6 
