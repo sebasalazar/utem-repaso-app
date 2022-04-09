@@ -1,6 +1,10 @@
 # utem-repaso-app
 Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 
+## Dependencias
+**sudo apt-get install libpq-dev**
+
+
 ## Integrantes del curso
 
 - 19.646.363-1 
