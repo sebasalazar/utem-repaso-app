@@ -31,7 +31,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 19.782.781-5 
 - 19.744.873-3 
 - 19.632.153-5 
-- 20.237.683-5 
+- Martín Esteban Sobarzo Huerta 
 - 19.701.282-K 
 - 18.295.265-6 
 - 20.044.964-9 
