@@ -24,7 +24,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 19.054.592-K 
 - 19.996.744-4 
 - 19.512.933-9 
-- 18.934.585-2 
+- German Ramirez Obaid 
 - 19.828.252-9 
 - 20.122.161-7 
 - Andres Alberto Segarra Pavez
