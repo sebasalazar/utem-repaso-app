@@ -42,6 +42,12 @@ void desconectar(PGconn* conexion);
  */
 PGresult* consultar(PGconn* conexion, char* consultaSQL);
 
+/**
+ * Libera la memoria usada por una consulta SQL.
+ *
+ * @param resultado Estructa con datos de una respuesta SQL
+ */
+void liberar(PGresult* resultado);
 
 #ifdef __cplusplus
 }

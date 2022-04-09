@@ -31,3 +31,9 @@ PGresult* consultar(PGconn* conexion, char* consultaSQL) {
 
     return resultado;
 }
+
+void liberar(PGresult* resultado) {
+    if (resultado != NULL) {
+        PQclear(resultado);
+    }
+}
