@@ -9,7 +9,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 18.354.547-7 
 - 19.805.105-5 
 - 19.957.054-4 
-Jose Alfredo Calfuen Salazar
+- Jose Alfredo Calfuen Salazar
 - 18.332.632-5 
 - 18.675.767-K 
 - 20.110.127-1 
