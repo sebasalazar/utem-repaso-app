@@ -18,13 +18,29 @@ extern "C" {
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <postgresql/libpq-fe.h>
 
 
 /**
  * Función que permite conectarse al motor de base de datos y retorna un puntero a la estructura adecuada.
  */
-PGconn* dbconnect();
+PGconn* conectar();
+
+/**
+ * Desconecta del servidor.
+ *
+ * @param conexion Estructura de conexión al motor de base de datos
+ */
+void desconectar(PGconn* conexion);
+
+
+/**
+ * @param PGconn* puntero a una conexión de base de datos.
+ * @param consultaSQL Consulta a ejecutar contra el motor de base de datos.
+ * @return Una estructura de resultados 
+ */
+PGresult* consultar(PGconn* conexion, char* consultaSQL);
 
 
 #ifdef __cplusplus
