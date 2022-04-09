@@ -27,7 +27,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 18.934.585-2 
 - 19.828.252-9 
 - 20.122.161-7 
-- 19.606.098-7 
+- Andres Alberto Segarra Pavez
 - 19.782.781-5 
 - 19.744.873-3 
 - 19.632.153-5 
