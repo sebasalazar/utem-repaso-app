@@ -8,7 +8,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - 19.374.731-0 
 - 18.354.547-7 
 - 19.805.105-5 
-- 19.957.054-4 
+- Igor Bustos Zurita 
 - Jose Alfredo Calfuen Salazar
 - 18.332.632-5 
 - 18.675.767-K 
