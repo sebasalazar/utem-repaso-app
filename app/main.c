@@ -8,14 +8,14 @@
  * @return el código de salida del sistema
  */
 int main(int argc, char** argv) {
-    
-    PGconn* conexion = conectar();
-    if (conexion!=NULL) {
 
-        PGresult* respuesta = consultar(conexion,"SELECT VERSION()");
+    PGconn* conexion = conectar();
+    if (conexion != NULL) {
+
+        PGresult* respuesta = consultar(conexion, "SELECT VERSION()");
         if (respuesta != NULL) {
             char* version = obtieneString(respuesta, 0, 0);
-            fprintf(stdout,"\n%s\n",version);
+            fprintf(stdout, "\n%s\n", version);
             liberar(respuesta);
         }
 
