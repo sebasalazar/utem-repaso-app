@@ -23,7 +23,7 @@ Pequeño ejemplo de trabajo en C/C++ usando Linux, GCC y Make
 - Rodrigo Mora Palta
 - 18.669.403-1 
 - Rafael Morales Venegas 
-- 19.829.984-7 
+- Oscar Muñoz Retamal
 - 19.778.934-4 
 - 19.054.592-K 
 - 19.996.744-4 
